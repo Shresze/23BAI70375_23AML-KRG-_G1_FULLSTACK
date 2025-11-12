@@ -1,0 +1,22 @@
+{
+  "name": "experiment10_rbac_jwt",
+  "version": "1.0.0",
+  "description": "Experiment 10: Role-Based Access Control using JWT and Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Shreshta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

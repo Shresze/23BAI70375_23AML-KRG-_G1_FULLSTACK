@@ -1,0 +1,27 @@
+{
+  "name": "experiment9_jwt_protectedroutes",
+  "version": "1.0.0",
+  "description": "Experiment 9: Implement Protected Routes with JWT Verification in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "jwt",
+    "express",
+    "authentication",
+    "nodejs",
+    "protected-routes"
+  ],
+  "author": "Shreshta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
